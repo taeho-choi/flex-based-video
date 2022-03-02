@@ -8,7 +8,7 @@ flex 기반 동영상 웹페이지입니다.<br> flex를 활용하여 웹 레이
 
 ## Preview
 ![10](https://user-images.githubusercontent.com/60216512/156146248-d816a2d6-c49b-4887-9203-380aa08492f2.png)
-![20](https://user-images.githubusercontent.com/60216512/156146256-345021ab-35d3-4d45-8c1b-268f0cf1056f.png)
+![20](https://user-images.githubusercontent.com/60216512/156319492-a41085b2-3d35-418d-90f7-8901299d9c7c.png)
 
 ## Comments
 'aside 패널에서 CLOSE 텍스트를 클릭했을 때 사라지는 코드'를 '모든 article 요소를 순회하는 for 문' 안에 넣으라는 책의 내용이 잘못된 것 같습니다. article 요소는 4개이므로 CLOSE 텍스트 클릭 시 똑같은 코드가 4번 실행되기 때문입니다. console.log 함수로 디버깅 한 결과 4번이 출력되는 것을 확인하였고, for문 바깥으로 해당 코드를 빼냈습니다.
